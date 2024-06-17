@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home screen</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="index-script.js" defer></script>
+</head>
+<body class="body">
+  <div id="color-box"></div>
+  <ul id="color-list">
+    <li style="color: red;" onclick="changeColor('red')">Red</li>
+    <li style="color: lightblue;" onclick="changeColor('lightblue')">LightBlue</li>
+    <li style="color: green;" onclick="changeColor('green')">Green</li>
+    <li style="color: yellow;" onclick="changeColor('yellow')">Yellow</li>
+    <li style="color: pink;" onclick="changeColor('pink')">Pink</li>
+  </ul>
+
+  
+  <div class="language-switcher">
+    <span class="language-option" data-lang="en">
+      <span class="language-switcher__text_en">EN</span>
+    </span>
+    <span class="language-option active" data-lang="ua">
+      <span class="language-switcher__text_ua">
+        <a href="index.html">UA</a>
+      </span>
+    </span>
+  </div>
+
+
+
+  <header class="header">
+    <h1 class="content__title">Solar System</h1>
+  </header>
+  <nav class="nav">
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        <a class="nav__link" href="index-en.html">Home</a>
+        <a class="nav__link" href="Sun-en.html">Sun</a>
+        <a class="nav__link" href="Mercury-en.html">Mercury</a>
+        <a class="nav__link" href="Venus-en.html">Venus</a>
+        <a class="nav__link" href="Earth-en.html">Earth</a>
+        <a class="nav__link" href="Mars-en.html">Mars</a>
+        <a class="nav__link" href="Jupiter-en.html">Jupiter</a>
+        <a class="nav__link" href="Saturn-en.html">Saturn</a>
+        <a class="nav__link" href="Uranus-en.html">Uranus</a>
+        <a class="nav__link" href="Neptune-en.html">Neptune</a>
+        <a class="nav__link" href="contacts-en.html">Contacts</a>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="content">
+    
+    <h2 class="heading-2">Solar System</h2>
+    <p class="paragraph">The Solar System is a planetary system comprising the central star <a href="Sun-en.html" class="yellow-link">Sun</a> and all the natural space objects orbiting it heliocentrically. It formed by gravitational collapse of a gas-dust cloud about 4.57 billion years ago.</p>
+    <img class="image" src="Solar_System.jpg" >
+    <h2 class="heading-2">System Structure</h2>
+    <p class="paragraph">The four innermost planets, known as the terrestrial planets — <a href="Mercury-en.html " class="yellow-link">Mercury</a>, <a href="Venus-en.html" class="yellow-link">Venus</a>, <a href="Earth-en.html" class="yellow-link">Earth</a>, and <a href="Mars-en.html" class="yellow-link">Mars</a> — are primarily composed of silicates and metals. The four outer planets, known as the gas giants — <a href="Jupiter-en.html" class="yellow-link">Jupiter</a>, <a href="Saturn-en.html" class="yellow-link">Saturn</a>, <a href="Uranus-en.html" class="yellow-link">Uranus</a>, and <a href="Neptune-en.html" class="yellow-link">Neptune</a> — are much more massive than the terrestrial planets. The largest gas giants in the Solar System, Jupiter and Saturn, consist mainly of hydrogen and helium and are therefore referred to as gas giants; the smaller gas giants, Uranus and Neptune, besides hydrogen and helium, predominantly contain water, methane, and ammonia, such planets are classified as "ice giants". Six of the eight planets and four of the dwarf planets have natural satellites. Jupiter, Saturn, Uranus, and Neptune are surrounded by rings of dust and other particles.</p>
+    <img class="image" src="Solar_System2.jpg" >
+    <p class="paragraph">The Solar System has two regions filled with small bodies. The asteroid belt, located between Mars and Jupiter, is similar in composition to the terrestrial planets as it is composed of silicates and metals. The largest objects in the asteroid belt are the dwarf planet Ceres and the asteroids Pallas, Vesta, and Hygiea. Beyond Neptune's orbit lie trans-Neptunian objects consisting of frozen water, ammonia, and methane, the largest of which are Pluto, Haumea, Makemake, Quaoar, Orcus, Eris, and Sedna. There are other populations of small bodies in the Solar System, such as planetary quasi-satellites and trojans, near-Earth asteroids, centaurs, damocloids, as well as comets, meteoroids, and interplanetary dust moving throughout the system.</p>
+    <p class="paragraph">The Solar System is part of the structure of the Milky Way galaxy.</p>
+    <img class="image" src="Chumatski_shlyah.jpg" >
+    <h2 class="heading-2">Classification of Solar System Objects by Composition and Shape</h2>
+    <p class="paragraph">All objects orbiting the Sun are officially divided into three categories: planets, dwarf planets, and small bodies of the Solar System. A planet is any body in orbit around the Sun that is massive enough to have achieved a nearly spherical shape but is not massive enough to initiate thermonuclear fusion and has cleared its orbital region of planetesimals. A dwarf planet is a celestial body orbiting the Sun that is powerful enough to maintain a shape close to spherical under the influence of its own gravitational forces, but has not cleared its orbital region of planetesimals and is not a satellite of a planet. The objects that remain around the Sun are the small bodies of the Solar System.</p>
+    <p class="paragraph">The terms gas, ice, and rock are used to describe different classes of substances encountered throughout the Solar System. Rock is used to describe compounds with high condensation or melting temperatures that remained solid in the protoplanetary nebula under most conditions. Rocky compounds typically include silicates and metals such as iron and nickel. They dominate the inner part of the Solar System, forming the majority of the terrestrial planets and asteroids. Gases are substances with extremely low melting temperatures and high vapor pressures, such as molecular hydrogen, helium, and neon, which were always in gaseous state in the nebula. They predominate in the middle part of the Solar System, comprising most of Jupiter and Saturn. Ices of substances such as water, methane, ammonia, hydrogen sulfide, and carbon dioxide have melting temperatures up to a few hundred kelvins, and their thermodynamic phase depends on ambient pressure and temperature. They can occur as ices, liquids, or gases in different regions of the Solar System, in the nebula they were in solid or gaseous phase. Most moons of the giant planets contain icy substances, they also form the majority of Uranus and Neptune (so-called "ice giants") and numerous small objects located beyond Neptune's orbit. Gases and ices together are classified as volatile substances.</p>
+    <img class="image" src="Earth_and_Sun.jpg" >
+
+    <h2 class="heading-2">Text Display with Different Font Sizes</h2>
+  
+    <form id="textForm">
+      <label for="userText" class="label">Enter text:</label>
+      <input type="text" id="userText" required>
+      <br>
+      <label for="fontSize" class="label">Specify font size (in px):</label>
+      <input type="number" id="fontSize" required>
+      <br>
+      <button type="submit">Display Text</button>
+    </form>
+    
+    <div id="fade-container" style="width: 300px; height: 300px; background-color: lightblue; text-align: center; margin-top: 24px; color: #97a328; font-size: 36px; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);">
+      Content to Fade
+    </div>
+    
+    <h2 class="heading-2">Text Clock</h2>
+    <div id="text-clock" style="font-size: 24px; font-weight: bold;"></div>
+    
+    <h2 class="heading-2">Displaying Mouse Coordinates and Key Press Code</h2>
+    <div id="info">
+      <p class="paragraph"><strong>Mouse Coordinates:</strong> <span id="mouse-coordinates"></span></p>
+      <p class="paragraph"><strong>Pressed Key:</strong> <span id="key-code"></span></p>
+    </div>
+    
+    <h2 class="heading-2">Changing Text Size on the Page</h2>
+    <div class="font-buttons">
+      <button id="increase">A+</button>
+      <button id="decrease">A-</button>
+    </div>
+    
+    <h2 class="heading-2">Your Referrer and Browser Version</h2>
+    
+    <p class="paragraph">You came from <span id="referrer"></span></p>
+    <p class="paragraph">Your browser: <span id="browser-version"></span></p>
+    
+    <h2 class="heading-2">Countdown Timer</h2>
+    
+    <p class="paragraph">Time remaining until the image appears: <span id="timer">20</span> seconds</p>  
+    <div id="image-container"></div>
+
+  </section>
+
+  <footer class="footer">
+    <p class="footer__text">&copy; 2024 Solar System. All rights reserved.</p>
+  </footer>
+  <div class="fixed-element">
+    <a href="https://time.is/uk/" target="_blank">
+      <div class="clock">
+        <div class="clock__arrow clock__arrow--hour" id="hour"></div>
+        <div class="clock__arrow clock__arrow--minute" id="minute"></div>
+        <div class="clock__arrow clock__arrow--second" id="second"></div>
+        <div class="clock__center-dot"></div>
+      </div>
+    </a>
+  </div>
+</body>
+</html>

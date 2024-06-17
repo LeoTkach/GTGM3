@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body">
+  
+  <div class="language-switcher">
+    <span class="language-option" data-lang="en">
+      <span class="language-switcher__text_en">EN</span>
+    </span>
+    <span class="language-option active" data-lang="ua">
+      <span class="language-switcher__text_ua">
+        <a href="contacts.html">UA</a>
+      </span>
+    </span>
+  </div>
+
+  <header class="header">
+    <h1 class="content__title">Solar System</h1>
+  </header>
+  <nav class="nav">
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        <a class="nav__link" href="index-en.html">Home</a>
+        <a class="nav__link" href="Sun-en.html">Sun</a>
+        <a class="nav__link" href="Mercury-en.html">Mercury</a>
+        <a class="nav__link" href="Venus-en.html">Venus</a>
+        <a class="nav__link" href="Earth-en.html">Earth</a>
+        <a class="nav__link" href="Mars-en.html">Mars</a>
+        <a class="nav__link" href="Jupiter-en.html">Jupiter</a>
+        <a class="nav__link" href="Saturn-en.html">Saturn</a>
+        <a class="nav__link" href="Uranus-en.html">Uranus</a>
+        <a class="nav__link" href="Neptune-en.html">Neptune</a>
+        <a class="nav__link" href="contacts-en.html">Contacts</a>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="content">
+    
+    <div style="width: 800px;  margin: 60px auto; padding: 40px; background-color: #f4f4f4; border-radius: 5px;">
+      <h2 class="heading-2">Contact me</h2>
+      <form>
+        <div style="margin-bottom: 15px;">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" class="form__input" required>
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" class="form__input" required>
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" class="form__textarea" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="form__button">Send</button>
+      </form>
+    </div>
+
+
+    <h2 class="heading-2">My social media</h2>
+    <ul class="social-media">
+      <li class="social-media__item"><a class="social-media__link" href="https://t.me/Manerkot" target="_blank"><i class="fab fa-telegram" style="color: #2390c7;"></i></a></li>
+      <li class="social-media__item"><a class="social-media__link" href="https://www.instagram.com/kasatkich" target="_blank"><i class="fab fa-instagram" style="color: #ee7a37;"></i></a></li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__text">&copy; 2024 Solar System. All rights reserved.</p>
+  </footer>
+  <div class="fixed-element">
+    <a href="https://time.is/uk/" target="_blank">
+      <div class="clock">
+        <div class="clock__arrow clock__arrow--hour" id="hour"></div>
+        <div class="clock__arrow clock__arrow--minute" id="minute"></div>
+        <div class="clock__arrow clock__arrow--second" id="second"></div>
+        <div class="clock__center-dot"></div>
+      </div>
+    </a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Головна сторінка</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="index-script.js" defer></script>
+</head>
+<body class="body">
+  <div id="color-box"></div>
+  <ul id="color-list">
+    <li style="color: red;" onclick="changeColor('red')">Червоний</li>
+    <li style="color: lightblue;" onclick="changeColor('lightblue')">Голубий</li>
+    <li style="color: green;" onclick="changeColor('green')">Зелений</li>
+    <li style="color: yellow;" onclick="changeColor('yellow')">Жовтий</li>
+    <li style="color: pink;" onclick="changeColor('pink')">Рожевий</li>
+  </ul>
+  
+
+
+  <div class="language-switcher">
+    <span class="language-option active" data-lang="en">
+      <span class="language-switcher__text_en">
+        <a href="index-en.html">EN</a>
+      </span>
+    </span>
+    <span class="language-option" data-lang="ua">
+      <span class="language-switcher__text_ua">UA</span>
+    </span>
+  </div>
+
+
+  <header class="header">
+    <h1 class="content__title">Сонячна система</h1>
+  </header>
+  <nav class="nav">
+    <div class="dropdown">
+      <button class="dropbtn">Меню</button>
+      <div class="dropdown-content">
+        <a class="nav__link" href="index.html">Головна</a>
+        <a class="nav__link" href="Sun.html">Сонце</a>
+        <a class="nav__link" href="Mercury.html">Меркурій</a>
+        <a class="nav__link" href="Venus.html">Венера</a>
+        <a class="nav__link" href="Earth.html">Земля</a>
+        <a class="nav__link" href="Mars.html">Марс</a>
+        <a class="nav__link" href="Jupiter.html">Юпітер</a>
+        <a class="nav__link" href="Saturn.html">Сатурн</a>
+        <a class="nav__link" href="Uranus.html">Уран</a>
+        <a class="nav__link" href="Neptune.html">Нептун</a>
+        <a class="nav__link" href="contacts.html">Контакти</a>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="content">
+    
+    <h2 class="heading-2">Сонячна система</h2>
+    <p class="paragraph">Сонячна система - планетна система, що включає центральну зірку <a href="Sun.html" class="yellow-link">Сонце</a> і всі природні космічні об'єкти на геліоцентричних орбітах. Вона сформувалася шляхом гравітаційного стиснення газопилової хмари приблизно 4,57 млрд років тому.</p>
+    <img class="image" src="Solar_System.jpg" >
+    <h2 class="heading-2">Структура системи</h2>
+    <p class="paragraph">Чотири найближчі до Сонця планети, які називають планетами земної групи, — <a href="Mercury.html" class="yellow-link">Меркурій</a>, <a href="Venus.html" class="yellow-link">Венера</a>, <a href="Earth.html" class="yellow-link">Земля</a> і <a href="Mars.html" class="yellow-link">Марс</a> — складаються в основному з силікатів і металів. Чотири більш віддалені від Сонця планети, які називають планетами-гігантами, — <a href="Jupiter.html" class="yellow-link">Юпітер</a>, <a href="Saturn.html" class="yellow-link">Сатурн</a>, <a href="Uranus.html" class="yellow-link">Уран</a> і <a href="Neptune.html" class="yellow-link">Нептун</a> — набагато масивніші, ніж планети земної групи. Найбільші планети-гіганти, що входять до складу Сонячної системи - Юпітер і Сатурн - складаються головним чином з водню і гелію і тому відносяться до газових гігантів; менші планети-гіганти - Уран і Нептун - крім водню і гелію, переважно містять воду, метан і аміак, такі планети виділяються в окремий клас "крижаних гігантів". Шість планет із восьми та чотири карликові планети мають природні супутники. Юпітер, Сатурн, Уран та Нептун оточені кільцями пилу та інших частинок.</p>
+    <img class="image" src="Solar_System2.jpg" >
+    <p class="paragraph">У Сонячній системі є дві області, заповнені малими тілами. Пояс астероїдів, що знаходиться між Марсом та Юпітером, схожий за складом із планетами земної групи, оскільки складається з силікатів і металів. Найбільшими об'єктами поясу астероїдів є карликова планета Церера та астероїди Паллада, Веста та Гігея. За орбітою Нептуна розташовуються транснептунові об'єкти, що складаються із замерзлої води, аміаку та метану, найбільшими з яких є Плутон, Хаумеа, Макемаке, Квавар, Орк, Еріда та Седна. У Сонячній системі існують й інші популяції малих тіл, такі як планетні квазісупутники і троянці, навколоземні астероїди, кентаври, дамоклоїди, а також комети, метеороїди і космічний пил, що переміщаються по системі.</p>
+    <p class="paragraph">Сонячна система входить до складу структури галактики Чумацький Шлях.</p>
+    <img class="image" src="Chumatski_shlyah.jpg" >
+    <h2 class="heading-2">Класифікація об'єктів Сонячної системи за складом та формою</h2>
+    <p class="paragraph">Всі об'єкти Сонячної системи, що обертаються навколо Сонця, офіційно поділяють на три категорії: планети, карликові планети та малі тіла Сонячної системи. Планета — будь-яке тіло на орбіті навколо Сонця, що виявилося досить масивним, щоб придбати сферичну форму, але недостатньо масивним для початку термоядерного синтезу, і зумів очистити околиці своєї орбіти від планетезималей. Карликова планета - небесне тіло, що обертається по орбіті навколо Сонця; яке досить потужно, щоб під впливом власних сил гравітації підтримувати близьку до округлої форми, але яке не очистило простір своєї орбіти від планетезималей і не є супутником планети. Об'єкти, що залишилися навколо Сонця, — малі тіла Сонячної системи.</p>
+    <p class="paragraph">Терміни газ, лід та камінь використовують, щоб описати різні класи речовин, що зустрічаються всюди у Сонячній системі. Камінь використовується, щоб описати з'єднання з високими температурами конденсації або плавлення, які залишалися в протопланетній туманності в твердому стані за майже всіх умов. Кам'яні сполуки зазвичай включають силікати та метали, такі як залізо та нікель. Вони переважають у внутрішній частині Сонячної системи, формуючи більшість планет земної групи та астероїдів. Гази — речовини з надзвичайно низькими температурами плавлення та високим тиском насиченої пари, такі як молекулярний водень, гелій та неон, які у туманності завжди були у газоподібному стані. Вони домінують у середній частині Сонячної системи, складаючи більшу частину Юпітера та Сатурна. Льоди таких речовин, як вода, метан, аміак, сірководень і вуглекислий газ мають температури плавлення до кількох сотень кельвінів, тоді як їхня термодинамічна фаза залежить від навколишнього тиску і температури. Вони можуть зустрічатися як льоди, рідини або гази в різних регіонах Сонячної системи, в туманності вони були в твердій або газовій фазі. Більшість супутників планет-гігантів містять крижані субстанції, також вони становлять більшу частину Урана і Нептуна (так званих «крижаних гігантів») та численних малих об'єктів, розташованих за орбітою Нептуна. Гази та льоди разом класифікують як леткі речовини.</p>
+    <img class="image" src="Earth_and_Sun.jpg" >
+
+
+    <h2 class="heading-2">Виведення тексту з різним розміром шрифту</h2>
+    
+    <form id="textForm">
+      <label for="userText" class="label">Введіть текст:</label>
+      <input type="text" id="userText" required>
+      <br>
+      <label for="fontSize" class="label">Вкажіть розмір шрифту (в px):</label>
+      <input type="number" id="fontSize" required>
+      <br>
+      <button type="submit">Відобразити текст</button>
+    </form>
+
+      
+      
+      <div id="fade-container" style="width: 300px; height: 300px; background-color: lightblue; text-align: center; margin-top: 24px; color: #97a328; font-size: 36px; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);">
+        Вміст для зникнення
+      </div>
+
+      
+      <h2 class="heading-2">Текстовий годинник</h2>
+      <div id="text-clock" style="font-size: 24px; font-weight: bold;"></div>
+
+      <h2 class="heading-2">Виведення координат курсору та коду натиснутої клавіші на клавіатурі</h2>
+      <div id="info">
+        <p class="paragraph"><strong>Координаті курсору:</strong> <span id="mouse-coordinates"></span></p>
+        <p class="paragraph"><strong>Натиснута клавіша:</strong> <span id="key-code"></span></p>
+      </div>
+
+      <h2 class="heading-2">Змінення розміру текста на сторінці</h2>
+      <div class="font-buttons">
+        <button id="increase">A+</button>
+        <button id="decrease">A-</button>
+      </div>
+
+      <h2 class="heading-2">Звідки ви прийшли. Версія вашого браузера</h2>
+  
+      <p class="paragraph">Ви прийшли з <span id="referrer"></span></p>
+      <p class="paragraph">Ваш браузер: <span id="browser-version"></span></p>
+
+
+      <h2 class="heading-2">Зворотній відлік часу</h2>
+  
+      <p class="paragraph">Залишилось часу до появи зображення: <span id="timer">20</span> секунд</p>  
+      <div id="image-container"></div>
+
+  </section>
+
+  
+
+  <footer class="footer">
+    <p class="footer__text">&copy; 2024 Сонячна система. Усі права захищено.</p>
+  </footer>
+  <div class="fixed-element">
+    <a href="https://time.is/uk/" target="_blank">
+      <div class="clock">
+        <div class="clock__arrow clock__arrow--hour" id="hour"></div>
+        <div class="clock__arrow clock__arrow--minute" id="minute"></div>
+        <div class="clock__arrow clock__arrow--second" id="second"></div>
+        <div class="clock__center-dot"></div>
+      </div>
+    </a>
+    
+  </div>
+
+
+  
+</body>
+</html>
